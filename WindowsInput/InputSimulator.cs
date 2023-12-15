@@ -49,27 +49,18 @@ namespace WindowsInput
         /// Gets the <see cref="IKeyboardSimulator"/> instance for simulating Keyboard input.
         /// </summary>
         /// <value>The <see cref="IKeyboardSimulator"/> instance.</value>
-        public IKeyboardSimulator Keyboard
-        {
-            get { return _keyboardSimulator; }
-        }
+        public IKeyboardSimulator Keyboard => _keyboardSimulator;
 
         /// <summary>
         /// Gets the <see cref="IMouseSimulator"/> instance for simulating Mouse input.
         /// </summary>
         /// <value>The <see cref="IMouseSimulator"/> instance.</value>
-        public IMouseSimulator Mouse
-        {
-            get { return _mouseSimulator; }
-        }
+        public IMouseSimulator Mouse => _mouseSimulator;
 
         /// <summary>
         /// Gets the <see cref="IInputDeviceStateAdaptor"/> instance for determining the state of the various input devices.
         /// </summary>
         /// <value>The <see cref="IInputDeviceStateAdaptor"/> instance.</value>
-        public IInputDeviceStateAdaptor InputDeviceState
-        {
-            get { return _inputDeviceState; }
-        }
+        public IInputDeviceStateAdaptor InputDeviceState => _inputDeviceState;
     }
 }
