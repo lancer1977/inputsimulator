@@ -4,7 +4,7 @@ variables:
 - name: Project.Name
   value: PG.Core.Json
 - name: Project.Path
-  value: 'WindowsInput/InputSimulator.dotnet.csproj'
+  value: 'WindowsInput/WindowsInput.DotNet.csproj'
 - name: Configuration
   value: Release
 trigger:
