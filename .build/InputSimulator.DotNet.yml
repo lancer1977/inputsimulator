@@ -4,7 +4,7 @@ variables:
 - name: Project.Name
   value: PG.Core.Json
 - name: Project.Path
-  value: 'InputSimulator/InputSimulator.dotnet.csproj'
+  value: 'WindowsInput/InputSimulator.dotnet.csproj'
 - name: Configuration
   value: Release
 trigger:
@@ -13,7 +13,7 @@ trigger:
     - refs/heads/master
   paths:
     include:
-    - InputSimulator
+    - WindowsInput
 
 jobs:
 - job: Phase_1 
