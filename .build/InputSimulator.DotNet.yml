@@ -1,10 +1,10 @@
 # Starter pipeline
-name: 1.0.2.$(rev:r)
+name: 1.0.1.$(rev:r)
 variables: 
 - name: Project.Name
   value: PG.Core.Json
 - name: Project.Path
-  value: 'InputSimulator/InputSimulator.dotnet.csproj'
+  value: 'WindowsInput/WindowsInput.DotNet.csproj'
 - name: Configuration
   value: Release
 trigger:
@@ -13,7 +13,7 @@ trigger:
     - refs/heads/master
   paths:
     include:
-    - PolyhydraGames.Core.Json
+    - WindowsInput
 
 jobs:
 - job: Phase_1 
