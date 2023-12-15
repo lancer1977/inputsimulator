@@ -2,7 +2,7 @@
 name: 1.0.1.$(rev:r)
 variables: 
 - name: Project.Name
-  value: PG.Core.Json
+  value: WindowsInput.DotNet
 - name: Project.Path
   value: 'WindowsInput/WindowsInput.DotNet.csproj'
 - name: Configuration
@@ -27,7 +27,7 @@ jobs:
     displayName: dotnet build $(Project.Name)
     inputs:
       projects: $(Project.Path)
-      arguments: --configuration $(Configuration) --no-restore
+      arguments: --configuration $(Configuration)
   - task: DotNetCoreCLI@2
     inputs:
       command: 'pack'
