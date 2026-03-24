@@ -87,3 +87,9 @@ public void GetKeyStatus()
 History
 ============
 It was originally written for use in the WpfKB (WPF Touch Screen Keyboard) project to simulate real keyboard entry to the active window. After looking for a comprehensive wrapper for the Win32 and User32 input simulation methods and coming up dry I decided to write and open-source this project. I hope it helps someone out there!
+
+
+## 📖 Documentation
+Detailed documentation can be found in the following sections:
+- [Feature Index](./docs/features/README.md)
+- [Core Capabilities](./docs/features/core-capabilities.md)
