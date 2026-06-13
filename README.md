@@ -100,5 +100,6 @@ It was originally written for use in the WpfKB (WPF Touch Screen Keyboard) proje
 
 ## 📖 Documentation
 Detailed documentation can be found in the following sections:
+- [Docs Home](./docs/README.md)
 - [Feature Index](./docs/features/README.md)
 - [Core Capabilities](./docs/features/core-capabilities.md)
