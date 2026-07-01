@@ -103,3 +103,16 @@ Detailed documentation can be found in the following sections:
 - [Docs Home](./docs/README.md)
 - [Feature Index](./docs/features/README.md)
 - [Core Capabilities](./docs/features/core-capabilities.md)
+
+## Validation
+
+```bash
+bash scripts/validate.sh
+```
+
+The repo-native validation builds and packs the SDK-style
+`WindowsInput/WindowsInput.DotNet.csproj`, checks NuGet vulnerability metadata,
+and verifies the generated package under `artifacts/packages/`.
+
+The legacy `.NET Framework` solution and WPF sample are Windows/Visual Studio
+surfaces. Validate those on Windows when changing the classic projects.

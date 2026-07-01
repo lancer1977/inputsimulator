@@ -97,6 +97,7 @@ node_modules/
 *.pdb
 *.snupkg
 *.nupkg
+.devstudio/runtime/
 
 # OS cruft
 .DS_Store
